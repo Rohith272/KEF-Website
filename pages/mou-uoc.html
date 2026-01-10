@@ -25,22 +25,23 @@
   <link href="assets/img/KEF_logo1-removebg-preview.png" rel="icon">
   <link href="assets/img/KEF_logo1-removebg-preview.png" rel="apple-touch-icon">
 
+
   <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
     * Template Name: Gp - v4.10.0
@@ -73,7 +74,7 @@
       // Initialize Firebase
       const app = initializeApp(firebaseConfig);
       const analytics = getAnalytics(app);
-      logEvent(analytics, 'kefOnNewsOpened',{});
+      logEvent(analytics, 'uocmouOpened',{});
     </script>
 </head>
 
@@ -81,23 +82,23 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top" style="background: rgba(0, 0, 0, 0.8);">
     <div class="container d-flex align-items-center justify-content-lg-between">
-      <h1 class="logo me-auto me-lg-0"><a href="index.html" style="font-weight: 400; text-transform: lowercase; font-style: italic; font-family: 'Times New Roman', Times, serif;">Kef</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html" style="font-weight: 400; text-transform: lowercase; font-family: 'Times New Roman', Times, serif; font-style: italic;">Kef</a></h1>
       <a class="logo me-auto">
-        <img src="assets/img/KEF_logo1-removebg-preview.png" alt="logo" class="img-fluid"
+        <img src="../assets/img/KEF_logo1-removebg-preview.png" alt="logo" class="img-fluid"
           style="transform: scale(2.5); margin-left: 25px;" alt="" class="img-fluid">
       </a>
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link " href="./index.html">Home</a></li>
-          <li><a class="nav-link " href="./index.html#about">About</a></li>
-          <li><a class="nav-link " href="./index.html#services">Services</a></li>
-          <li><a class="nav-link " href="./index.html#team">Team</a></li>
+          <li><a class="nav-link" href="../index.html">Home</a></li>
+          <li><a class="nav-link" href="../index.html#about">About</a></li>
+          <li><a class="nav-link" href="../index.html#services">Services</a></li>
+          <li><a class="nav-link" href="../index.html#team">Team</a></li>
           <li>
-            <a class="nav-link active" href="KefOnNews.html">
+            <a class="nav-link" href="../KefOnNews.html">
                 <span><span style="font-family: 'Times New Roman', Times, serif; font-style: italic;">Kef&nbsp;&nbsp;</span> On News</span>
             </a>
-          </li>        
-          <li><a class="nav-link " href="./Gallery.html">Gallery</a></li>
+          </li>   
+          <li><a class="nav-link" href="../Gallery.html">Gallery</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -110,116 +111,39 @@
     <section class="breadcrumbs">
       <div class="container my-1">
         <div class="d-flex justify-content-between align-items-center">
+
           <ol>
-            <li><a href="./index.html">Home</a></li>
-            <li><span style="font-family: serif;font-weight: bold; text-transform: capitalize;font-style: italic;" >Kef&nbsp;</span> ON NEWS</li>
-          </ol>        
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Gallery.html">Gallery</a></li>
+          </ol>
         </div>
       </div>
     </section><!-- End Breadcrumbs -->
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>NEWS</h2>
-          <p><span style="font-family: serif;font-weight: bold; text-transform: capitalize;font-style: italic;" >Kef</span> ON NEWS</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 col-md-12 d-flex align-items-stretch" data-aos-delay="300">
-          </div>
-        </div>
-
-        <!-- Gallery images -->
-        <div class="container">
-          <!-- <hr class="mt-2 mb-5"> -->
-          <div class="row text-center text-lg-start" style="display: flex; justify-content: space-between;">
-              <div class="col-lg-3 col-md-3 col-6" style="width: 400px; height: 299px;">
-                  <a href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="assets/img/kef-on-news/news10.jpeg" alt="" style="width: 400px; height: 229px; border: none;">
-                  </a>
-              </div>
-              <div class="col-lg-3 col-md-3 col-6" style="width: 400px; height: 299px;">
-                  <a href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="assets/img/kef-on-news/news11.jpeg" alt="" style="width: 400px; height: 229px; border: none;">
-                  </a>
-              </div>
-              <div class="col-lg-3 col-md-3 col-6" style="width: 400px; height: 299px;">
-                  <a href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="assets/img/kef-on-news/news1.jpeg" alt="" style="width: 400px; height: 229px; border: none;">
-                  </a>
-              </div>
-              <div class="col-lg-3 col-md-3 col-6" style="width: 400px;">
-                  <a href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="assets/img/kef-on-news/news2.jpeg" alt="" style="width: 400px; height: 229px; border: none;">
-                  </a>
-              </div>
-              <div class="col-lg-3 col-md-3 col-6" style="width: 400px;">
-                  <a href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="assets/img/kef-on-news/news3.jpeg" alt="" style="width: 400px; height: 229px; border: none;">
-                  </a>
-              </div>
-          </div>
-      
-          <div class="row text-center text-lg-start" style="display: flex; justify-content: space-between;">
+      <div class="container">
+        <p>Had a discussion with Vice Chancellor Dr MK Jayaraj at Syndicate Hall, on “One District One Product” for setting up a laboratory for testing of Vegetble and Perishable for export through Calicut AirPort. Shri Hassan Usaid ITS, Asst Director General Foreign Trade, Sri Prakash Iyyer, Cochin Port, Pro Vice Chancellor Dr Andul Nazer, Dr Sunoj Kumar, Director, School of Health Sciences, Shri MK Ranjit, Westship Logistics and Shri Ajay Thampy, Chairman, Navio Shipping attended the meeting.</p>
+      </div>  
+      <div class="container">
+        <!-- <hr class="mt-2 mb-5"> -->
+        <div class="row text-center text-lg-start" style="display: flex; justify-content: space-between;">
             <div class="col-lg-3 col-md-3 col-6" style="width: 400px; height: 299px;">
-                <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="assets/img/kef-on-news/news4.jpeg" alt="" style="width: 400px; height: 229px; border: none;">
+                <a class="d-block mb-4 h-100" style="cursor: pointer;">
+                    <img class="img-fluid img-thumbnail" src="../assets/img/gallery/mou-uoc/uoc_mou.jpeg" alt="" style="width: 400px; height: 229px; border: none;">
                 </a>
             </div>
-            <div class="col-lg-3 col-md-3 col-6" style="width: 400px; height: 299px;">
-              <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="assets/img/kef-on-news/news5.jpeg" alt="" style="width: 400px; height: 229px; border: none;">
-              </a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-6" style="width: 400px; height: 299px;">
-              <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="assets/img/kef-on-news/news6.jpeg" alt="" style="width: 400px; height: 229px; border: none;">
-              </a>
-            </div>
-          </div>
-      
-          <div class="row text-center text-lg-start" style="display: flex; justify-content: space-between;">
-            <div class="col-lg-3 col-md-3 col-6" style="width: 400px; height: 299px;">
-                <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="assets/img/kef-on-news/news7.jpeg" alt="" style="width: 400px; height: 229px; border: none;">
+            <div class="col-lg-3 col-md-3 col-6" style="width: 400px;">
+                <a class="d-block mb-4 h-100" style="cursor: pointer;">
+                    <img class="img-fluid img-thumbnail" src="../assets/img/gallery/mou-uoc/uoc_mou2.jpeg" alt="" style="width: 400px; height: 229px; border: none;">
                 </a>
             </div>
-            <div class="col-lg-3 col-md-3 col-6" style="width: 400px; height: 299px;">
-              <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="assets/img/kef-on-news/news8.jpeg" alt="" style="width: 400px; height: 229px; border: none;">
-              </a>
+            <div class="col-lg-3 col-md-3 col-6" style="width: 400px;">
+                <a class="d-block mb-4 h-100" style="cursor: pointer;">
+                    <img class="img-fluid img-thumbnail" src="../assets/img/gallery//mou-uoc/uoc_mou3.jpeg" alt="" style="width: 400px; height: 229px; border: none;">
+                </a>
             </div>
-            <div class="col-lg-3 col-md-3 col-6" style="width: 400px; height: 299px;">
-              <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="assets/img/kef-on-news/news9.jpeg" alt="" style="width: 400px; height: 229px; border: none;">
-              </a>
-            </div>
-          </div>
-      
-      </div>
-      
-      
-      
-
-
-          <!-- Pagination -->
-
-          <!-- <nav aria-label="..." >
-            <ul class="pagination pagination-lg justify-content-center">
-              <li class="page-item active" aria-current="page">
-                <span class="page-link">1</span>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-            </ul>
-          </nav> -->
-
-
         </div>
-
-      </div>
+    </div>
     </section><!-- End Services Section -->
   </main>
   <!-- ======= Footer ======= -->
@@ -295,16 +219,16 @@
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="../assets/js/main.js"></script>
 </body>
 <style>
   .services .icon-box {
